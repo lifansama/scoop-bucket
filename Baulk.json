@@ -22,6 +22,10 @@
         "bin\\baulk-lnk.exe",
         "bin\\baulk-update.exe"
     ],
+    "env_add_path": [
+        "bin\\links",
+        "bin"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
