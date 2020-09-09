@@ -12,10 +12,13 @@
             "hash": "0c08e936c15109e7bfe61085aae11c6a223a4079ed0f8f9f77d19197344dd5cc"
         }
     },
+    "extract_dir": "Min-v1.16.0",
     "bin": "Min.exe",
     "shortcuts": [
-        "Min.exe",
-        "Min Browser"
+       [
+            "Min.exe",
+            "Min Browser"
+        ]
     ],
     "checkver": "github",
     "autoupdate": {
@@ -26,6 +29,7 @@
             "32bit": {
                 "url": "https://github.com/minbrowser/min/releases/download/v$version/Min-v$version-win32-ia32.zip"
             }
-        }
+        },
+        "extract_dir": "Min-v$version"
     }
 }
