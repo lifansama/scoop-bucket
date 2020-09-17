@@ -19,8 +19,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.ganttproject.biz/js/chunk-common.817414b7.js",
-        "regex": "\"DownloadWin30\",{attrs:{version:\"([\\d.]+)"
+        "url": "https://www.ganttproject.biz/js/chunk-common.4e9817ac.js",
+        "regex": "\"DownloadZip28\",{attrs:{version:\"([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://www.ganttproject.biz/dl/$version/any#/dl.7z",
