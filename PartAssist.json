@@ -46,6 +46,11 @@
             "Symantec Ghost Solution Suite",
         ]
     ],
+    "persist": [
+        "cfg.ini",
+        "wnd.ini",
+        "other.ini"
+    ],
     "checkver": {
         "url": "https://www.disktool.cn/download.html",
         "regex": "<small>版本：([\\d.]+)</small>"
