@@ -45,7 +45,7 @@
             "Ghost32.exe",
             "Symantec Ghost Solution Suite",
         ]
-    ]
+    ],
     "checkver": {
         "url": "https://www.disktool.cn/download.html",
         "regex": "<small>版本：([\\d.]+)</small>"
