@@ -15,7 +15,7 @@
         "CSVed.ini",
         "csved.tbx"
     ],
-    "checkver": "<div class=\"balk\">CSVed ([\\d.\\w]+)</div>",
+    "checkver": "<a href=\"#csved\">CSVed ([\\d.\\w]+)</a>",
     "autoupdate": {
         "url": "http://home.hccnet.nl/s.j.francke/csved/CSVed.zip"
     }
