@@ -19,7 +19,7 @@
     "bin": "elvish.exe",
     "checkver": {
         "url": "https://elv.sh/get/",
-        "regex": "([\\d.]+) \\(<a href=\"/blog/[\\d.]+-release-notes.html\">Release Note</a>\\)"
+        "regex": "([\\d.]+) \\(<a href=\"../blog/[\\d.]+-release-notes.html\">Release Note</a>\\)"
     },
     "autoupdate": {
         "architecture": {
