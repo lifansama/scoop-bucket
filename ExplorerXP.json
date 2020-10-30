@@ -21,7 +21,7 @@
             "ExplorerXP"
         ]
     ],
-    "checkver": "([\\d.]+) is uploaded .",
+    "checkver": "a new version ([\\d.]+) of <strong>ExplorerXP</strong> is available",
     "autoupdate": {
         "url": "http://www.explorerxp.com/explorerxpsetup.exe#/dl.7z"
     }
