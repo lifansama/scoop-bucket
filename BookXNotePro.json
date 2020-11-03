@@ -1,0 +1,24 @@
+﻿{
+    "homepage": "http://www.bookxnote.com/",
+    "license": "Proprietary",
+    "version": "2.0.0.1023",
+    "url": "http://www.bookxnote.com/setup/bookxnotepro-windows-x86-2.0.0.1023-20201030.zip",
+    "hash": "2a78225244f5e29aa58342113f87c091b5932186708e557af9749b0e060fae24",
+    "installer": {
+        "script": "Expand-7ZipArchive \"$dir\\bookxnotepro-windows-x86-2.0.0.1023-20201030.exe\" \"$dir\" -Removal"
+    },
+    "bin": "BookxNotePro.exe",
+    "shortcuts": [
+        [
+            "BookxNotePro.exe",
+            "BookxNote Pro"
+        ]
+    ],
+    "checkver": "最新版本：V([\\d.]+) (?<year>\\d{4})年(?<month>\\d{1,2})月(?<day>\\d{1,2})日",
+    "autoupdate": {
+        "url": "http://www.bookxnote.com/setup/bookxnotepro-windows-x86-$version-$year$month$day.zip",
+        "installer": {
+            "script": "Expand-7ZipArchive \"$dir\\bookxnotepro-windows-x86-$version-$year$month$day.exe\" \"$dir\" -Removal"
+        }
+    }
+}
