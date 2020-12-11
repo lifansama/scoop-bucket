@@ -9,7 +9,7 @@
             "extract_dir": "Veneta_Viewer_1.2.3_x64\\x64"
         }
     },
-    "bin": "",
+    "bin": "VenetaViewer.exe",
     "checkver": {
         "url": "https://sourceforge.net/projects/veneta-viewer/files/Veneta%20Viewer/",
         "regex": "Veneta_Viewer_([\\d.]+)_x64"
